@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>contador</title>
+    <link rel="stylesheet" href="/public/bootstrap.min.css">
+    
+    <script src="/public/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col col-lg-2">
+            <h1>Ingresos : <%=count%> veces</h1>
+          </div>
+        </div>
+    </div>
+    
+    <div class="btn-group">
+        <button type="button" class="btn btn-warning"><a href="/" >recargar pagina</a></button>
+        <br>
+        <br>
+        <button type="button" class="btn btn-primary"><a href="/sumar2">sumar 2 ingresos</a></button>
+        <br>
+        <br>
+        <button type="button" class="btn btn-primary"><a href="/cero" class="btn btn-primary">reiniciar</a></button>
+    </div>
+</body>
+</html>
